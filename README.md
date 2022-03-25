@@ -17,3 +17,9 @@ In this project, I implemented two algorithms for solving the sudoku puzzle name
 ## Back tracking algorithm
 
 ![Backtracking](https://user-images.githubusercontent.com/81757215/160067521-47762455-7640-4b33-81ca-d66556cb9179.JPG)
+
+## Input data
+
+In the sudokus_start.txt file, there are hundreds of sample Sudoku puzzles to be solved. Each Sudoku puzzle is represented as a single line of text, which starts from the top-left corner of the board, and enumerates the digits in each tile, row by row. The number zero will be used to indicate tiles that have not yet been filled. For example, the Sudoku board in the diagram shown above is represented as the string:
+
+00302060090030005001001806400... (and so on)
